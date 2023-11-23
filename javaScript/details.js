@@ -7,7 +7,7 @@ const clicked = {
     subTopics: ["HTML syntax and structure", "HTML elements and attributes", "HTML forms and input elements",
         "HTML tables and lists", "HTML multimedia elements(audio, video, images)", "HTML accessibility and semantic markup"],
     favorite: 0,
-    ImagePath: "../Logos/html.png"
+    ImagePath: "../logos/html.png"
 }
 
 const generateDetails = (course) => {
