@@ -8,7 +8,7 @@ const data = [
         subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
         "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
         favorite: 0,
-        ImagePath: "../Logos/html.png"
+        ImagePath: "../logos/html.png"
     },
     {
         description: "",
@@ -18,7 +18,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/css.webp"
+        ImagePath: "../logos/css.webp"
     },
     {
         description: "",
@@ -28,7 +28,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/javascript.jpg"
+        ImagePath: "../logos/javascript.jpg"
     },
     {
         description: "",
@@ -38,7 +38,7 @@ const data = [
         rating: 3.9,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/jquery.png"
+        ImagePath: "../logos/jquery.png"
     },
     {
         description: "",
@@ -48,7 +48,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/angular.png"
+        ImagePath: "../logos/angular.png"
     },
     {
         description: "",
@@ -58,7 +58,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/react.webp"
+        ImagePath: "../logos/react.webp"
     },
     {
         description: "",
@@ -68,7 +68,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/vuejs.jpeg"
+        ImagePath: "../logos/vuejs.jpeg"
     },
     {
         description: "",
@@ -78,7 +78,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/nodejs.webp"
+        ImagePath: "../logos/nodejs.webp"
     },
     {
         description: "",
@@ -88,7 +88,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/expressjs.webp"
+        ImagePath: "../logos/expressjs.webp"
     },
     {
         description: "",
@@ -98,7 +98,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/ruby.jpeg"
+        ImagePath: "../logos/ruby.jpeg"
     },
     {
         description: "",
@@ -108,7 +108,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/django.jpeg"
+        ImagePath: "../logos/django.jpeg"
     },
     {
         description: "",
@@ -118,7 +118,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/flask.webp"
+        ImagePath: "../logos/flask.webp"
     },
     {
         description: "",
@@ -128,7 +128,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/sql.png"
+        ImagePath: "../logos/sql.png"
     },
     {
         description: "",
@@ -138,7 +138,7 @@ const data = [
         rating: 4.3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/nosql.png"
+        ImagePath: "../logos/nosql.png"
     },
     {
         description: "",
@@ -148,7 +148,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/restapi.jpeg"
+        ImagePath: "../logos/restapi.jpeg"
     },
     {
         description: "",
@@ -158,7 +158,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/graphql.png"
+        ImagePath: "../logos/graphql.png"
     },
     {
         description: "",
@@ -168,7 +168,7 @@ const data = [
         rating: 3.6,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/oauth.png"
+        ImagePath: "../logos/oauth.png"
     },
     {
         description: "",
@@ -178,7 +178,7 @@ const data = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/json.png"
+        ImagePath: "../logos/json.png"
     },
     {
         description: "",
@@ -188,7 +188,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/ajax.gif"
+        ImagePath: "../logos/ajax.gif"
     },
     {
         description: "",
@@ -198,7 +198,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/websockets.png"
+        ImagePath: "../logos/websockets.png"
     },
     {
         description: "",
@@ -208,7 +208,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/responsive.gif"
+        ImagePath: "../logos/responsive.gif"
     },
     {
         description: "",
@@ -218,7 +218,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/accessibility.png"
+        ImagePath: "../logos/accessibility.png"
     },
     {
         description: "",
@@ -228,7 +228,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/ux.jpeg"
+        ImagePath: "../logos/ux.jpeg"
     },
     {
         description: "",
@@ -238,7 +238,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/ui.png"
+        ImagePath: "../logos/ui.png"
     },
     {
         description: "",
@@ -248,7 +248,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/design-systems.jpeg"
+        ImagePath: "../logos/design-systems.jpeg"
     },
     {
         description: "",
@@ -258,7 +258,7 @@ const data = [
         rating: 3.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/performance.png"
+        ImagePath: "../logos/performance.png"
     },
     {
         description: "",
@@ -268,7 +268,7 @@ const data = [
         rating: 42,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/cross-browser.jpeg"
+        ImagePath: "../logos/cross-browser.jpeg"
     },
     {
         description: "",
@@ -278,7 +278,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/seo.jpeg"
+        ImagePath: "../logos/seo.jpeg"
     },
     {
         description: "",
@@ -288,7 +288,7 @@ const data = [
         rating: 3.9,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/web-security.jpeg"
+        ImagePath: "../logos/web-security.jpeg"
     },
     {
         description: "",
@@ -298,7 +298,7 @@ const data = [
         rating: 4.4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/testing.jpeg"
+        ImagePath: "../logos/testing.jpeg"
     },
     {
         description: "",
@@ -308,7 +308,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/ci-cd.jpeg"
+        ImagePath: "../logos/ci-cd.jpeg"
     },
     {
         description: "",
@@ -318,7 +318,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/devops.png"
+        ImagePath: "../logos/devops.png"
     },
     {
         description: "",
@@ -328,7 +328,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/cloud.jpeg"
+        ImagePath: "../logos/cloud.jpeg"
     },
     {
         description: "",
@@ -338,7 +338,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/docker.png"
+        ImagePath: "../logos/docker.png"
     },
     {
         description: "",
@@ -348,7 +348,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/microservices.png"
+        ImagePath: "../logos/microservices.png"
     },
     {
         description: "",
@@ -358,7 +358,7 @@ const data = [
         rating: 3,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/pwa.png"
+        ImagePath: "../logos/pwa.png"
     },
     {
         description: "",
@@ -368,7 +368,7 @@ const data = [
         rating: 4.2,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/wai.jpeg"
+        ImagePath: "../logos/wai.jpeg"
     },
     {
         description: "",
@@ -378,7 +378,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/cms.png"
+        ImagePath: "../logos/cms.png"
     },
     {
         description: "",
@@ -388,7 +388,7 @@ const data = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/analytics.png"
+        ImagePath: "../logos/analytics.png"
     }
 ]
 
@@ -402,7 +402,7 @@ const fav = [
         subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
         "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
         favorite: 0,
-        ImagePath: "../Logos/html.png"
+        ImagePath: "../logos/html.png"
     },
     {
         description: "",
@@ -412,7 +412,7 @@ const fav = [
         rating: 3.8,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/css.webp"
+        ImagePath: "../logos/css.webp"
     },
     {
         description: "",
@@ -422,6 +422,6 @@ const fav = [
         rating: 4,
         subTopics: [],
         favorite: 0,
-        ImagePath: "../Logos/javascript.jpg"
+        ImagePath: "../logos/javascript.jpg"
     }
 ]
