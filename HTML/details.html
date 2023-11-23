@@ -20,8 +20,11 @@
         <nav>
             <ul>
                 <li class="home-button">Web Topics</li>
-                <li class="feature-button"><i class="fa-regular fa-moon"></i> Dark Mode</li>
-                <li class="feature-button" id="favorite"><i class="fa-regular fa-heart"></i> Favorites</li>
+                <li><button class="feature-button" id="dark-mode" onclick="darkMode()"><i
+                            class="fa-regular fa-moon"></i> <span>Dark Mode</span></button></li>
+                <li><button class="feature-button" id="favourite" onclick="showMyFavourite()"><i
+                            class="fa-regular fa-heart"></i> <span>Favourites</span></button>
+                </li>
             </ul>
         </nav>
         <div class="triangle">
@@ -29,19 +32,24 @@
             <div class="triangle-top-right"></div>
         </div>
         <div class="welcome-statement">
-            <p><span class="welcome-span">Welcome to our website!</span><br>
-                we have a new design that's fresh, modern, and easy to use.
-            </p>
+
+            <div>
+                <p class="primary-welcome">Welcome to our website!</p>
+            </div>
+            <div>
+                <p class="secondery-welcome">We have a new design that's fresh, modern, and easy to use.</p>
+            </div>
+
         </div>
     </header>
     <main>
         <article id="course-intro">
-
         </article>
-
-        <article>
-
-        </article>
+        <div class="favourite-display">
+            <p>My favourite Topics</p>
+            <div class="favourite-list">
+            </div>
+        </div>
     </main>
     <footer>
         <p class="footer-text">
@@ -49,7 +57,9 @@
         </p>
     </footer>
     <script src="https://kit.fontawesome.com/9789759535.js" crossorigin="anonymous"></script>
-    <script src="../JavaScript/details.js" type="module" ></script>
+    <script src="../JavaScript/data.js"></script>
+    <script src="../JavaScript/header.js"></script>
+    <script src="../JavaScript/details.js"></script>
 </body>
 
 </html>

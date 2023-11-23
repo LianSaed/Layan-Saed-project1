@@ -1,11 +1,12 @@
-let data = [
+const data = [
     {
         description: "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).",
         title: "HTML",
         author: "Sarah Smith",
         intimation: "Web Development Langauges",
         rating: 4,
-        subTopics: {},
+        subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
+        "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
         favorite: 0,
         ImagePath: "../Logos/html.png"
     },
@@ -15,7 +16,7 @@ let data = [
         author: "David Lee",
         intimation: "Web Development Langauges",
         rating: 3.8,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/css.webp"
     },
@@ -25,7 +26,7 @@ let data = [
         author: "Emily Chen",
         intimation: "Web Development Langauges",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/javascript.jpg"
     },
@@ -35,7 +36,7 @@ let data = [
         author: "John Johnson",
         intimation: "Frontend FrameWorks and Libraries",
         rating: 3.9,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/jquery.png"
     },
@@ -45,7 +46,7 @@ let data = [
         author: "Jessica Davis",
         intimation: "Frontend FrameWorks and Libraries",
         rating: 3.8,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/angular.png"
     },
@@ -55,7 +56,7 @@ let data = [
         author: "Daniel Brown",
         intimation: "Frontend FrameWorks and Libraries",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/react.webp"
     },
@@ -65,7 +66,7 @@ let data = [
         author: "Ava Jones",
         intimation: "Frontend FrameWorks and Libraries",
         rating: 3.8,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/vuejs.jpeg"
     },
@@ -75,7 +76,7 @@ let data = [
         author: "Micheal Kim",
         intimation: "Backend FrameWorks and Libraries",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/nodejs.webp"
     },
@@ -85,7 +86,7 @@ let data = [
         author: "Sophia Rodriguez",
         intimation: "Backend FrameWorks and Libraries",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/expressjs.webp"
     },
@@ -95,7 +96,7 @@ let data = [
         author: "William Lee",
         intimation: "Backend FrameWorks and Libraries",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/ruby.jpeg"
     },
@@ -105,7 +106,7 @@ let data = [
         author: "Olivia Martinez",
         intimation: "Backend FrameWorks and Libraries",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/django.jpeg"
     },
@@ -115,7 +116,7 @@ let data = [
         author: "Ethan Thompson",
         intimation: "Backend FrameWorks and Libraries",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/flask.webp"
     },
@@ -125,7 +126,7 @@ let data = [
         author: "Madison Davis",
         intimation: "Databases and APIs",
         rating: 4.2,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/sql.png"
     },
@@ -135,7 +136,7 @@ let data = [
         author: "Isabella Wilson",
         intimation: "Databases and APIs",
         rating: 4.3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/nosql.png"
     },
@@ -145,7 +146,7 @@ let data = [
         author: "Jacob Garcia",
         intimation: "Databases and APIs",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/restapi.jpeg"
     },
@@ -155,7 +156,7 @@ let data = [
         author: "Mia Brown",
         intimation: "Databases and APIs",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/graphql.png"
     },
@@ -165,7 +166,7 @@ let data = [
         author: "Evelyn Nguyen",
         intimation: "Web Development Concepts and T...",
         rating: 3.6,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/oauth.png"
     },
@@ -175,7 +176,7 @@ let data = [
         author: "Liam Hernandez",
         intimation: "Web Development Concepts and T...",
         rating: 3.8,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/json.png"
     },
@@ -185,7 +186,7 @@ let data = [
         author: "Avery Perez",
         intimation: "Web Development Concepts and T...",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/ajax.gif"
     },
@@ -195,7 +196,7 @@ let data = [
         author: "Victoria Kim",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/websockets.png"
     },
@@ -205,7 +206,7 @@ let data = [
         author: "Ryan Jones",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/responsive.gif"
     },
@@ -215,7 +216,7 @@ let data = [
         author: "Samantha Martin",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/accessibility.png"
     },
@@ -225,7 +226,7 @@ let data = [
         author: "Luke Davis",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/ux.jpeg"
     },
@@ -235,7 +236,7 @@ let data = [
         author: "Grace Wilson",
         intimation: "Web Development Concepts and T...",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/ui.png"
     },
@@ -245,7 +246,7 @@ let data = [
         author: "Noah Martinez",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/design-systems.jpeg"
     },
@@ -255,7 +256,7 @@ let data = [
         author: "Chloe Taylor",
         intimation: "Web Development Concepts and T...",
         rating: 3.2,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/performance.png"
     },
@@ -265,7 +266,7 @@ let data = [
         author: "David Lee",
         intimation: "Web Development Concepts and T...",
         rating: 42,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/cross-browser.jpeg"
     },
@@ -275,7 +276,7 @@ let data = [
         author: "Emily Kim",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/seo.jpeg"
     },
@@ -285,7 +286,7 @@ let data = [
         author: "Gabriel Hernandez",
         intimation: "Web Development Concepts and T...",
         rating: 3.9,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/web-security.jpeg"
     },
@@ -295,7 +296,7 @@ let data = [
         author: "Avery Perez",
         intimation: "Web Development Concepts and T...",
         rating: 4.4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/testing.jpeg"
     },
@@ -305,7 +306,7 @@ let data = [
         author: "Madison Davis",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/ci-cd.jpeg"
     },
@@ -315,7 +316,7 @@ let data = [
         author: "Isabella Wilson",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/devops.png"
     },
@@ -325,7 +326,7 @@ let data = [
         author: "Jacob Garcia",
         intimation: "Web Development Concepts and T...",
         rating: 4.2,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/cloud.jpeg"
     },
@@ -335,7 +336,7 @@ let data = [
         author: "Mia Brown",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/docker.png"
     },
@@ -345,7 +346,7 @@ let data = [
         author: "Evelyn Nguyen",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/microservices.png"
     },
@@ -355,7 +356,7 @@ let data = [
         author: "Liam Hernandez",
         intimation: "Web Development Concepts and T...",
         rating: 3,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/pwa.png"
     },
@@ -365,7 +366,7 @@ let data = [
         author: "Avery Perez",
         intimation: "Web Development Concepts and T...",
         rating: 4.2,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/wai.jpeg"
     },
@@ -375,7 +376,7 @@ let data = [
         author: "Victoria Kim",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/cms.png"
     },
@@ -385,8 +386,42 @@ let data = [
         author: "Ryan Jones",
         intimation: "Web Development Concepts and T...",
         rating: 4,
-        subTopics: {},
+        subTopics: [],
         favorite: 0,
         ImagePath: "../Logos/analytics.png"
+    }
+]
+
+const fav = [
+    {
+        description: "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).",
+        title: "HTML",
+        author: "Sarah Smith",
+        intimation: "Web Development Langauges",
+        rating: 4,
+        subTopics: ["HTML syntax and structure","HTML elements and attributes","HTML forms and input elements",
+        "HTML tables and lists","HTML multimedia elements(audio, video, images)","HTML accessibility and semantic markup"],
+        favorite: 0,
+        ImagePath: "../Logos/html.png"
+    },
+    {
+        description: "",
+        title: "CSS",
+        author: "David Lee",
+        intimation: "Web Development Langauges",
+        rating: 3.8,
+        subTopics: [],
+        favorite: 0,
+        ImagePath: "../Logos/css.webp"
+    },
+    {
+        description: "",
+        title: "JavaScript",
+        author: "Emily Chen",
+        intimation: "Web Development Langauges",
+        rating: 4,
+        subTopics: [],
+        favorite: 0,
+        ImagePath: "../Logos/javascript.jpg"
     }
 ]

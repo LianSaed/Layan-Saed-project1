@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,8 +21,10 @@
         <nav>
             <ul>
                 <li class="home-button">Web Topics</li>
-                <li class="feature-button"><i class="fa-regular fa-moon"></i> Dark Mode</li>
-                <li class="feature-button" id="favorite"><i class="fa-regular fa-heart"></i> Favorites</li>
+                <li><button class="feature-button" id="dark-mode" onclick="darkMode()"><i
+                            class="fa-regular fa-moon"></i> <span>Dark Mode</span></button></li>
+                <li><button class="feature-button" id="favourite" onclick="showMyFavourite()"><i class="fa-regular fa-heart"></i> <span>Favourites</span></button>
+                </li>
             </ul>
         </nav>
         <div class="triangle">
@@ -29,13 +32,52 @@
             <div class="triangle-top-right"></div>
         </div>
         <div class="welcome-statement">
-            <p><span class="welcome-span">Welcome to our website!</span><br>
-                we have a new design that's fresh, modern, and easy to use.
-            </p>
+
+            <div>
+                <p class="primary-welcome">Welcome to our website!</p>
+            </div>
+            <div>
+                <p class="secondery-welcome">We have a new design that's fresh, modern, and easy to use.</p>
+            </div>
+
         </div>
     </header>
     <main>
+        <div class="bar-container">
+            <div class="search-bar">
+                <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                <div class="search-input"><input id="searchbar" class="search-input" onkeyup="" type="text"
+                        name="search" placeholder="Search the website..."></div>
+                <div class="dropdown btn1">
+                    <button class="dropbtn">
+                        <div class="sort-text-small">Sort by</div>
+                        <div class="sort-text-medium">Deafult <i class="fa-solid fa-angle-down fa-xs"></i></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+                <div class="dropdown btn2">
+                    <button class="dropbtn">
+                        <div class="sort-text-small">Filter by</div>
+                        <div class="sort-text-medium">Deafult <i class="fa-solid fa-angle-down fa-xs"></i></div>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="main-grid" id="main"></div>
+        <div class="favourite-display">
+            <p>My favourite Topics</p>
+            <div class="favourite-list">
+            </div>
+        </div>
     </main>
     <footer>
         <p class="footer-text">
@@ -44,7 +86,8 @@
     </footer>
     <script src="https://kit.fontawesome.com/9789759535.js" crossorigin="anonymous"></script>
     <script src="../JavaScript/data.js"></script>
-    <script src="../JavaScript/courses.js" type="module" ></script>
+    <script src="../JavaScript/header.js"></script>
+    <script src="../JavaScript/courses.js"></script>
 </body>
 
 </html>

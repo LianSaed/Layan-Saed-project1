@@ -9,4 +9,12 @@
   --lines-color: #DDDDDD;
   --body-text: #333333;
   --heart-color: #DC143C;
+  --details-text: #FFFFFF;
+  --details-bg: #333333;
+  --fixed-bg: #FFFFFF;
+  --favourite-option-text: #333333;
+  --favourite-option-lines: #DDDDDD;
+  --invisible-lines: 5%;
+  --border-radius: 7px;
+  --test: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
 }
