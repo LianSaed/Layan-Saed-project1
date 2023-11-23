@@ -17,7 +17,7 @@ const generateDetails = (course) => {
             <div class="course-summary">
                 <h2 class="course-intimation">${course.intimation}</h2>
                 <h1 class="course-title">${course.title}</h1>
-                <p class="course-description text-overflow-clip">${course.description}</p>
+                <p class="course-description">${course.description}</p>
             </div>
             <div class="favourite-options">
                 <div id="course-img"></div>
