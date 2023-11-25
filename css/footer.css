@@ -1,0 +1,73 @@
+.footer-text {
+    text-align: center;
+}
+
+.footer-text i {
+    color: var(--heart-color);
+}
+
+footer {
+    padding: 1%;
+}
+
+.favourite-display {
+    width: 100%;
+    border: 1px solid var(--bg_default);
+    background-color: var(--bg_default);
+    position: fixed;
+    bottom: 0;
+    height: 25%;
+    padding: 0 var(--invisible-lines) 0.1% var(--invisible-lines);
+    display: none;
+    overflow: auto;
+}
+
+.favourite-display p {
+    margin: 5px 0 5px 0;
+}
+
+.favourite-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding: 5px 0 5px 0;
+}
+
+.favourite-card {
+    position: relative;
+    height: 15vh;
+    width: 95px;
+    border-radius: var(--border-radius);
+    background-color: var(--bg_default);
+    box-shadow: 0px 0px 3px 3px var(--lines-color);
+}
+
+.favourite-img {
+    height: 55%;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: var(--border-radius);
+    border-top-right-radius: var(--border-radius);
+}
+
+.favourite-info {
+    font-weight: 400;
+    font-size: 5px;
+    padding-left: 5px;
+}
+
+@media screen and (max-width: 680px) {
+
+    .favourite-list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+    }
+
+    .favourite-card {
+        height: 10vh;
+        width: 35vw;
+    }
+
+}
