@@ -1,7 +1,6 @@
 #course-intro {
     display: grid;
     grid-template-columns: 0.19fr 0.40fr 0.22fr 0.19fr;
-    grid-template-rows: 1px 210px 130px;
     grid-auto-rows: auto;
     gap: 3%;
     row-gap: 20px;
@@ -24,14 +23,22 @@
     font-size: medium;
     margin-bottom: 0;
     margin-top: 0;
+    line-height: 1.5;
 }
 
 .course-title {
     color: var(--details-text);
     font-weight: 700;
-    margin-top: 0;
-    line-height: 0.8;
-    /*margin-bottom: 50px;*/
+    margin: 0;
+    line-height: 1;
+}
+
+.details-rating-stars {
+    display: flex;
+    flex-direction: row;
+    color: var(--stars-colors);
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .course-description {
@@ -48,13 +55,14 @@
     grid-row: 2/ 4;
     background-color: var(--fixed-bg);
     color: var(--favourite-option-text);
+    height: fit-content;
 }
 
 #course-img {
     box-sizing: border-box;
     background-size: cover;
     background-position: center;
-    height: 45%;
+    height: 165px;
 }
 
 .course-author {
@@ -116,6 +124,7 @@
     border: 1px solid var(--lines-color);
     border-collapse: collapse;
     font-weight: 200;
+    height: fit-content;
 }
 
 .topic {
@@ -157,7 +166,7 @@
     .background-color {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
-        
+
     }
 
     .favourite-options {
@@ -186,7 +195,7 @@
     .background-color {
         grid-column: 1 / 4;
         grid-row: 2 / 3;
-        
+
     }
 
     .favourite-options {

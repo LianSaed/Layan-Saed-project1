@@ -11,14 +11,11 @@ main {
 }
 
 .main-grid {
-    flex: 1;
-    padding: 40px var(--invisible-lines) 40px var(--invisible-lines);
+    height: 100%;
+    padding: 30px var(--invisible-lines);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(209px, 17%));
-    grid-template-rows: 250px;
-    grid-auto-rows: 250px;
-    grid-auto-columns: minmax(209px, 17%);
-    justify-items: center;
+    grid-auto-rows: auto;
     justify-content: space-between;
     row-gap: 40px;
     column-gap: min(20px);
@@ -30,13 +27,13 @@ main {
     height: 100%;
     background-color: var(--bg_default);
     border-radius: var(--border-radius);
-    box-shadow: 0 0 2px 2px var(--lines-color);
+    box-shadow: 0 0 3px 0px var(--lines-color);
+    box-sizing: border-box;
 }
 
 .course-img {
-    height: 50%;
+    height: 120px;
     width: 100%;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-top-left-radius: var(--border-radius);
@@ -45,31 +42,38 @@ main {
 }
 
 .course-info {
-    padding-left: var(--invisible-lines);
-    padding-right: var(--invisible-lines);
+    padding: var(--course-info-invisible-lines);
 }
 
 .course-info h2 {
-    margin-bottom: 0;
-    margin-top: 7%;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 1.3;
+    margin: 0;
 }
 
 .course-info h1 {
-    height: fit-content;
     margin: 0;
     padding: 0;
     font-weight: 700;
-    font-size: 15px;
-    block-size: fit-content;
+    font-size: 14px;
+    line-height: 1.3;
 }
 
 .course-info h3 {
     font-weight: 200;
     font-size: 12px;
     block-size: fit-content;
+    margin-bottom: 0;
 }
+
+.rating-stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.1rem;
+    color: var(--stars-colors);
+}
+
 
 a:link {
     text-decoration: inherit;
@@ -83,16 +87,16 @@ a:visited {
 
 .search-bar {
     display: grid;
-    grid-template-columns: 0.3fr 6fr 1fr 1fr;
+    grid-template-columns: 0.3fr 5fr 1fr 1fr;
     background-color: var(--bg_default);
-    border-radius: 15px;
+    border-radius: 10px;
     height: 100%;
-    box-shadow: 0px 0px 3px 3px var(--lines-color);
+    box-shadow: 0px 0px 4px 2px var(--lines-color);
 }
 
 .bar-container {
-    padding: 2% var(--invisible-lines) 2% var(--invisible-lines);
-    height: 8vh;
+    padding: 20px var(--invisible-lines);
+    height: 7.5vh;
 }
 
 .search-input {
@@ -107,7 +111,10 @@ a:visited {
     background-color: var(--bg_default);
     border: none;
     outline: none;
-    font-size: 14px;
+    font-family: var(--font-family);
+    color: var(--body-text);
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .search-icon {
@@ -117,9 +124,12 @@ a:visited {
 
 .dropbtn {
     color: var(--body-text);
+    font-family: var(--font-family);
+    line-height: 1.2;
     width: 100%;
     height: 100%;
     font-size: 10px;
+    font-weight: 400;
     border: none;
     cursor: pointer;
     background-color: transparent;
@@ -159,12 +169,12 @@ a:visited {
     display: block;
 }
 
-.sort-text-small {
-    font-size: 12px;
-
+.small-font-size {
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 
-.sort-text-medium {
+.medium-font-size {
     font-size: medium;
     width: 100%;
     display: flex;
@@ -173,7 +183,17 @@ a:visited {
     align-items: baseline;
 }
 
+.topics-counter-statement {
+    padding-left: var(--invisible-lines);
+    font-weight: 700;
+    font-size: 1.4rem;
+}
 
+.topics-counter-statement,
+.statement {
+    margin: 0;
+    line-height: 1;
+}
 
 @media screen and (max-width: 486px) {
     .main-grid {

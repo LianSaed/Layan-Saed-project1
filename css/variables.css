@@ -1,5 +1,6 @@
 :root {
-  --font-family: 'Nunito Sans', sans-serif;;
+  --font-family: 'Nunito Sans', sans-serif;
+  ;
   --header-level-2: 36px;
   --subtitle-font-size: 24px;
   --brand-primary: #0768AC;
@@ -14,7 +15,8 @@
   --fixed-bg: #FFFFFF;
   --favourite-option-text: #333333;
   --favourite-option-lines: #DDDDDD;
-  --invisible-lines: 5%;
-  --border-radius: 7px;
-  --test: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(0,212,255,1) 100%);
+  --invisible-lines: 4%;
+  --border-radius: 6px;
+  --course-info-invisible-lines: 15px;
+  --stars-colors: #e5981e;
 }

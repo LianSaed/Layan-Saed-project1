@@ -17,6 +17,13 @@ const generateDetails = (course) => {
             <div class="course-summary">
                 <h2 class="course-intimation">${course.intimation}</h2>
                 <h1 class="course-title">${course.title}</h1>
+                <div class="details-rating-stars">
+                    <i class="fa-sharp fa-solid fa-star fa-sm"></i>
+                    <i class="fa-sharp fa-solid fa-star fa-sm"></i>
+                    <i class="fa-sharp fa-solid fa-star fa-sm"></i>
+                    <i class="fa-sharp fa-solid fa-star fa-sm"></i>
+                    <i class="fa-sharp fa-solid fa-star-half-stroke fa-sm"></i>
+                    </div>
                 <p class="course-description">${course.description}</p>
             </div>
             <div class="favourite-options">
