@@ -1,17 +1,19 @@
-const clicked = {
-    description: "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).",
-    title: "HTML",
-    author: "Sarah Smith",
-    intimation: "Web Development Langauges",
-    rating: 4,
-    subTopics: ["HTML syntax and structure", "HTML elements and attributes", "HTML forms and input elements",
-        "HTML tables and lists", "HTML multimedia elements(audio, video, images)", "HTML accessibility and semantic markup"],
-    favorite: 0,
-    ImagePath: "../logos/html.png"
-}
+import { getData } from './courses.js';
 
-const generateDetails = (course) => {
+const generateDetails = async () => {
     const container = document.getElementById('course-intro');
+    // Get parameters from the current URL
+    const queryString = window.location.search;
+    const urlParams = new URLSearchParams(queryString);
+    let course;
+    let data = await getData('https://liansaed.github.io/Layan-Saed-project1/data.json');
+    let cardId = urlParams.get('id');
+    data.forEach((cardItems) => {
+        if (parseInt(cardId) === cardItems.id) {
+            course = JSON.parse(JSON.stringify(cardItems));
+            console.log(course)
+        }
+    })
     let content = `
             <div class="background-color"></div>
             <div class="course-summary">
@@ -58,4 +60,4 @@ const generateDetails = (course) => {
     topics.innerHTML += content;
 }
 
-generateDetails(clicked)
+generateDetails()

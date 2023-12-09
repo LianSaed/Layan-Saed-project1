@@ -14,11 +14,11 @@ main {
     height: 100%;
     padding: 30px var(--invisible-lines);
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(209px, 17%));
+    grid-template-columns: repeat(auto-fill, minmax(209px, 18%));
     grid-auto-rows: auto;
     justify-content: space-between;
     row-gap: 40px;
-    column-gap: min(20px);
+    column-gap: 15px;
     border: 0;
 }
 
@@ -244,5 +244,23 @@ a:visited {
 @media screen and (max-width: 680px) and (min-width: 487px) {
     .search-bar {
         grid-template-columns: 0.7fr 6fr 1fr 1fr;
+    }
+    .main-grid {
+        grid-template-columns: repeat(auto-fill, minmax(209px, 48%));
+    }
+}
+@media screen and (max-width: 713px){
+    .main-grid {
+        grid-template-columns: repeat(auto-fill, minmax(209px, 48%));
+    }
+}
+@media screen and (max-width: 941px) and (min-width: 681px) {
+    .main-grid {
+        grid-template-columns: repeat(auto-fill, minmax(209px, 31%));
+    }
+}
+@media screen and (max-width: 1220px) and (min-width: 942px) {
+    .main-grid {
+        grid-template-columns: repeat(auto-fill, minmax(209px, 23%));
     }
 }

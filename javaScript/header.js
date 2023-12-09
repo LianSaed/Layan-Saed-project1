@@ -1,6 +1,7 @@
+import { getData } from './courses.js';
+
 let dark = false;
 let favouriteDisplay = false;
-let favoriteList = [...fav];
 
 const darkMode = () => {
     const root_theme = document.querySelector(':root');
@@ -22,12 +23,13 @@ const darkMode = () => {
         dark = false;
     }
 }
-const showMyFavourite = () => {
-    console.log("hello")
+window.darkMode = darkMode;
+const showMyFavourite = async () => {
     const container = document.querySelector('.favourite-list');
     if (!favouriteDisplay) {
+        container.innerHTML = '';
+        let favoriteList = await getData('https://liansaed.github.io/Layan-Saed-project1/javaScript/favoriteData.json');
         favoriteList.forEach(function (course, idx) {
-            console.log(course)
             // Construct card content
             const content = `
                 <div id="favourite-${idx}" class="favourite-card" >
@@ -48,3 +50,4 @@ const showMyFavourite = () => {
         favouriteDisplay = false;
     }
 }
+window.showMyFavourite = showMyFavourite;

@@ -1,0 +1,399 @@
+[
+    {
+        "id": 1,
+        "description": "HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and structure of web content. Other technologies besides HTML are generally used to describe a web page's appearance/presentation (CSS) or functionality/behavior (JavaScript).",
+        "title": "HTML",
+        "author": "Sarah Smith",
+        "intimation": "Web Development Langauges",
+        "rating": 4,
+        "subTopics": [
+            "HTML syntax and structure",
+            "HTML elements and attributes",
+            "HTML forms and input elements",
+            "HTML tables and lists",
+            "HTML multimedia elements(audio, video, images)",
+            "HTML accessibility and semantic markup"
+        ],
+        "ImagePath": "../logos/html.png"
+    },
+    {
+        "id": 2,
+        "description": "Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript. ",
+        "title": "CSS",
+        "author": "David Lee",
+        "intimation": "Web Development Langauges",
+        "rating": 3.8,
+        "subTopics": [],
+        "ImagePath": "../logos/css.webp"
+    },
+    {
+        "id": 3,
+        "description": "JavaScript, often abbreviated as JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. As of 2023, 98.7% of websites use JavaScript on the client side for webpage behavior, often incorporating third-party libraries.",
+        "title": "JavaScript",
+        "author": "Emily Chen",
+        "intimation": "Web Development Langauges",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/javascript.jpg"
+    },
+    {
+        "id": 4,
+        "description": "jQuery is a JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animations, and Ajax. It is free, open-source software using the permissive MIT License. As of August 2022, jQuery is used by 77% of the 10 million most popular websites. ",
+        "title": "jQuery",
+        "author": "John Johnson",
+        "intimation": "Frontend FrameWorks and Libraries",
+        "rating": 3.9,
+        "subTopics": [],
+        "ImagePath": "../logos/jquery.png"
+    },
+    {
+        "id": 5,
+        "description": "Angular is a TypeScript-based, free and open-source single-page web application framework led by the Angular Team at Google and by a community of individuals and corporations. Angular is a complete rewrite from the same team that built AngularJS.",
+        "title": "Angular",
+        "author": "Jessica Davis",
+        "intimation": "Frontend FrameWorks and Libraries",
+        "rating": 3.8,
+        "subTopics": [],
+        "ImagePath": "../logos/angular.png"
+    },
+    {
+        "id": 6,
+        "description": "React is a free and open-source front-end JavaScript library for building user interfaces based on components. It is maintained by Meta and a community of individual developers and companies. React can be used to develop single-page, mobile, or server-rendered applications with frameworks like Next.js.",
+        "title": "React",
+        "author": "Daniel Brown",
+        "intimation": "Frontend FrameWorks and Libraries",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/react.webp"
+    },
+    {
+        "id": 7,
+        "description": "Vue.js is an open-source model–view–viewmodel front end JavaScript library for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+        "title": "Vue.js",
+        "author": "Ava Jones",
+        "intimation": "Frontend FrameWorks and Libraries",
+        "rating": 3.8,
+        "subTopics": [],
+        "ImagePath": "../logos/vuejs.jpeg"
+    },
+    {
+        "id": 8,
+        "description": "Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting.",
+        "title": "Node.js",
+        "author": "Micheal Kim",
+        "intimation": "Backend FrameWorks and Libraries",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/nodejs.webp"
+    },
+    {
+        "id": 9,
+        "description": "Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.",
+        "title": "Express.js",
+        "author": "Sophia Rodriguez",
+        "intimation": "Backend FrameWorks and Libraries",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/expressjs.webp"
+    },
+    {
+        "id": 10,
+        "description": "",
+        "title": "Ruby on Rails",
+        "author": "William Lee",
+        "intimation": "Backend FrameWorks and Libraries",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/ruby.jpeg"
+    },
+    {
+        "id": 11,
+        "description": "Ruby on Rails is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.",
+        "title": "Django",
+        "author": "Olivia Martinez",
+        "intimation": "Backend FrameWorks and Libraries",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/django.jpeg"
+    },
+    {
+        "id": 12,
+        "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions.",
+        "title": "Flask",
+        "author": "Ethan Thompson",
+        "intimation": "Backend FrameWorks and Libraries",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/flask.webp"
+    },
+    {
+        "id": 13,
+        "description": "Structured Query Language is a domain-specific language used in programming and designed for managing data held in a relational database management system, or for stream processing in a relational data stream management system.",
+        "title": "SQL",
+        "author": "Madison Davis",
+        "intimation": "Databases and APIs",
+        "rating": 4.2,
+        "subTopics": [],
+        "ImagePath": "../logos/sql.png"
+    },
+    {
+        "id": 14,
+        "description": "",
+        "title": "NoSQL",
+        "author": "Isabella Wilson",
+        "intimation": "Databases and APIs",
+        "rating": 4.3,
+        "subTopics": [],
+        "ImagePath": "../logos/nosql.png"
+    },
+    {
+        "id": 15,
+        "description": "",
+        "title": "Rest APIs",
+        "author": "Jacob Garcia",
+        "intimation": "Databases and APIs",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/restapi.jpeg"
+    },
+    {
+        "id": 16,
+        "description": "",
+        "title": "GraphQL",
+        "author": "Mia Brown",
+        "intimation": "Databases and APIs",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/graphql.png"
+    },
+    {
+        "id": 17,
+        "description": "",
+        "title": "OAuth",
+        "author": "Evelyn Nguyen",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3.6,
+        "subTopics": [],
+        "ImagePath": "../logos/oauth.png"
+    },
+    {
+        "id": 18,
+        "description": "",
+        "title": "JSON",
+        "author": "Liam Hernandez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3.8,
+        "subTopics": [],
+        "ImagePath": "../logos/json.png"
+    },
+    {
+        "id": 19,
+        "description": "",
+        "title": "AJAX",
+        "author": "Avery Perez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/ajax.gif"
+    },
+    {
+        "id": 20,
+        "description": "",
+        "title": "Websockets",
+        "author": "Victoria Kim",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/websockets.png"
+    },
+    {
+        "id": 21,
+        "description": "",
+        "title": "Responsive Design",
+        "author": "Ryan Jones",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/responsive.gif"
+    },
+    {
+        "id": 22,
+        "description": "",
+        "title": "Accessibility",
+        "author": "Samantha Martin",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/accessibility.png"
+    },
+    {
+        "id": 23,
+        "description": "",
+        "title": "User Experience (UX)",
+        "author": "Luke Davis",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/ux.jpeg"
+    },
+    {
+        "id": 24,
+        "description": "",
+        "title": "User Interface (UI)",
+        "author": "Grace Wilson",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/ui.png"
+    },
+    {
+        "id": 25,
+        "description": "",
+        "title": "Design Systems",
+        "author": "Noah Martinez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/design-systems.jpeg"
+    },
+    {
+        "id": 25,
+        "description": "",
+        "title": "performance Optimization",
+        "author": "Chloe Taylor",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3.2,
+        "subTopics": [],
+        "ImagePath": "../logos/performance.png"
+    },
+    {
+        "id": 26,
+        "description": "",
+        "title": "Cross Browser Compatibility",
+        "author": "David Lee",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 42,
+        "subTopics": [],
+        "ImagePath": "../logos/cross-browser.jpeg"
+    },
+    {
+        "id": 27,
+        "description": "",
+        "title": "Search Engine Optimization (SEO)",
+        "author": "Emily Kim",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/seo.jpeg"
+    },
+    {
+        "id": 28,
+        "description": "",
+        "title": "Web security",
+        "author": "Gabriel Hernandez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3.9,
+        "subTopics": [],
+        "ImagePath": "../logos/web-security.jpeg"
+    },
+    {
+        "id": 29,
+        "description": "",
+        "title": "Testing And Debugging",
+        "author": "Avery Perez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4.4,
+        "subTopics": [],
+        "ImagePath": "../logos/testing.jpeg"
+    },
+    {
+        "id": 30,
+        "description": "",
+        "title": "Continuous Integration",
+        "author": "Madison Davis",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/ci-cd.jpeg"
+    },
+    {
+        "id": 31,
+        "description": "",
+        "title": "Devops",
+        "author": "Isabella Wilson",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/devops.png"
+    },
+    {
+        "id": 32,
+        "description": "",
+        "title": "Cloud Computing",
+        "author": "Jacob Garcia",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4.2,
+        "subTopics": [],
+        "ImagePath": "../logos/cloud.jpeg"
+    },
+    {
+        "id": 33,
+        "description": "",
+        "title": "Docker",
+        "author": "Mia Brown",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/docker.png"
+    },
+    {
+        "id": 34,
+        "description": "",
+        "title": "Microservices",
+        "author": "Evelyn Nguyen",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/microservices.png"
+    },
+    {
+        "id": 35,
+        "description": "",
+        "title": "Progressive Web Apps (PWA)",
+        "author": "Liam Hernandez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 3,
+        "subTopics": [],
+        "ImagePath": "../logos/pwa.png"
+    },
+    {
+        "id": 36,
+        "description": "",
+        "title": "Web Accessibility Initiative (WAI)",
+        "author": "Avery Perez",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4.2,
+        "subTopics": [],
+        "ImagePath": "../logos/wai.jpeg"
+    },
+    {
+        "id": 37,
+        "description": "",
+        "title": "Content Mnagement System (CMS)",
+        "author": "Victoria Kim",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/cms.png"
+    },
+    {
+        "id": 38,
+        "description": "",
+        "title": "Web Analytics",
+        "author": "Ryan Jones",
+        "intimation": "Web Development Concepts and T...",
+        "rating": 4,
+        "subTopics": [],
+        "ImagePath": "../logos/analytics.png"
+    }
+]
