@@ -7,6 +7,7 @@ const generateDetails = async () => {
     const urlParams = new URLSearchParams(queryString);
     let course;
     let data = await getData('https://liansaed.github.io/Layan-Saed-project1/javaScript/data.json');
+    
     let cardId = urlParams.get('id');
     data.forEach((cardItems) => {
         if (parseInt(cardId) === cardItems.id) {
