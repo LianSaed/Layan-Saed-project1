@@ -21,7 +21,7 @@
         <nav>
             <ul>
                 <li class="home-button">Web Topics</li>
-                <li><button class="feature-button" id="dark-mode" onclick="darkMode()"><i
+                <li><button class="feature-button" id="dark-mode" onclick="changeMode()"><i
                             class="fa-regular fa-moon"></i> <span>Dark Mode</span></button></li>
                 <li><button class="feature-button" id="favourite" onclick="showMyFavourite()"><i
                             class="fa-regular fa-heart"></i> <span>Favourites</span></button>
@@ -47,29 +47,32 @@
         <div class="bar-container">
             <div class="search-bar">
                 <div class="search-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
-                <div class="search-input"><input id="searchbar" class="search-input" onkeyup="" type="text"
-                        name="search" placeholder="Search the website..."></div>
-                <div class="dropdown btn1">
-                    <button class="dropbtn">
-                        <div class="small-font-size">Sort by:</div>
-                        <div class="medium-font-size">Default <i class="fa-solid fa-angle-down fa-xs"></i></div>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
+                <div class="search-input"><input id="searchbar" class="search-input" type="text" name="search"
+                        placeholder="Search the website..."></div>
+                <div class="dropbtn btn1">
+                    <div class="small-font-size">Sort by:</div>
+                    <select class="dropdown" id="selection1">
+                        <option value="0">
+                            Default
+                        </option>
+                        <option value="1">
+                            Topic Title
+                        </option>
+                        <option value="2">
+                            Author Name
+                        </option>
+                    </select>
                 </div>
-                <div class="dropdown btn2">
-                    <button class="dropbtn">
-                        <div class="small-font-size">Filter by:</div>
-                        <div class="medium-font-size">Default <i class="fa-solid fa-angle-down fa-xs"></i></div>
-                    </button>
-                    <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
-                    </div>
+                <div class="dropbtn btn2">
+                    <div class="small-font-size">Filter by:</div>
+                    <select class="dropdown" id="selection2">
+                        <option value="0">
+                            Default
+                        </option>
+                        <option value="1">
+                            Category
+                        </option>
+                    </select>
                 </div>
             </div>
         </div>
@@ -90,6 +93,7 @@
     </footer>
     <script src="https://kit.fontawesome.com/9789759535.js" crossorigin="anonymous"></script>
     <script src="../javaScript/header.js" type="module"></script>
+    <script src="../javaScript/searchBar.js" type="module"></script>
     <script src="../javaScript/courses.js" type="module"></script>
 </body>
 
