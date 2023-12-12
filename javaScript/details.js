@@ -1,4 +1,5 @@
-import { getData } from './courses.js';
+import { getData } from './fetch.js';
+import { checkIfInFavList, favouriteButtonText } from './favourite.js';
 
 const generateDetails = async () => {
     const container = document.getElementById('course-intro');
@@ -28,7 +29,7 @@ const generateDetails = async () => {
                     <h2 class="course-author line-height"> <span>${course.topic}</span> by <a href="#">${course.name}</a></h2>
                     <div class="add-option line-height">
                         <p>Interested about this topic?</p>
-                        <button class="button">Add to favourites <i class="fa-regular fa-heart"></i></button>
+                        <button class="favouritesButton" onclick="addOrRemoveFromFavourites(${cardId})">Add to favourites <i class="fa-regular fa-heart"></i></button>
                         <p class="credit">Unlimited Credits</p>
                     </div>
                 </div>
@@ -43,7 +44,6 @@ const generateDetails = async () => {
     const topics = document.getElementById('sub-topics');
     content = ``;
     course.subtopics.forEach(function (topic, idx) {
-        console.log(topic)
         content +=
             `
             <div class="topic" id="topic-${idx}">
@@ -52,6 +52,8 @@ const generateDetails = async () => {
         `;
     })
     topics.innerHTML += content;
+    let isInList = checkIfInFavList(cardId);
+    favouriteButtonText(isInList);
 }
 
 generateDetails()

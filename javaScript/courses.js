@@ -1,5 +1,6 @@
+import { getData } from "./fetch.js";
 
-export const createCoursesCards = (data) => {
+export const createCoursesCards = async (data) => {
     const container = document.getElementById('main');
     if (container != undefined) {
         container.innerHTML = ""; //reset container
@@ -25,22 +26,21 @@ export const createCoursesCards = (data) => {
             `;
         if (container != undefined) {
             container.innerHTML += content;
-            document.getElementById(`img-${idx}`).style.backgroundImage = "url(" + "../logos/" + course.image + ")"
+            document.getElementById(`img-${idx}`).style.backgroundImage = "url(" + "../logos/" + course.image + ")";
         }
     })
 }
 
-export const getData = async (url) => {
+const setCards = async () => {
+    document.getElementById('loader').style.display = 'block';
     try {
-        const response = await fetch(url);
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        return response.json();
+        let data = await getData('https://tap-web-1.herokuapp.com/topics/list');
+        document.getElementById('loader').style.display = 'none';
+        createCoursesCards(data);
+        return data;
     } catch (error) {
         throw error;
     }
 }
 
-export const data = await getData('https://tap-web-1.herokuapp.com/topics/list');
-createCoursesCards(data);
+export const fetchedData = await setCards();

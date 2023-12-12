@@ -1,4 +1,4 @@
-import { data, createCoursesCards } from './courses.js'
+import { fetchedData as data, createCoursesCards } from './courses.js'
 
 // Function to debounce input events
 function debounce(func, delay) {

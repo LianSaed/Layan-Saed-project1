@@ -102,18 +102,25 @@
     align-self: center;
 }
 
-.button {
+.favouritesButton {
     background-color: var(--brand-secondary);
     border: none;
     color: var(--details-text);
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
     font-weight: 400;
     font-size: 17px;
-    text-align: justify;
-    text-align: center;
     word-spacing: 2px;
+    gap: 2px;
     line-height: 2.8;
+    cursor: pointer;
+    text-wrap: nowrap;
 }
+.favouritesButton:hover {
+    box-shadow: 0px 0px 4px 1px var(--brand-secondary);
+  }
 
 .sub-topics {
     grid-column: 2 / 3;
